@@ -92,9 +92,13 @@ _iob
 -=-=-=-=-=-
 
 Step 4:
-I ran the anti-malware scan on both PE_Project and PE_Packed, and both returned a few services that detected malware. 
-So, I found a tool online called AxCrypt that encrypts selected files, and created a new version of the executable 
-named PE_Packed-Encrypted-exe.axx (it added the axx thing and you have to pay for the tool to retain normal file 
-extensions). When I ran the anti-malware scan again none of the services detected it.
+I had a really difficult time getting anti-malware to fail my program in more than 5 tests. I ran the anti-malware 
+scan on both PE_Project and PE_Packed, and both returned a few services that detected malware. So, I found a tool 
+online called AxCrypt that encrypts selected files, and created a new version of the executable named 
+PE_Packed-Encrypted-exe.axx (it added the axx thing and you have to pay for the tool to retain normal file 
+extensions). When I ran the anti-malware scan again none of the services detected it. I then tried an online encryption
+site called Free Encrypt, and downloaded the .cry file it returned. This one passed all of the tests as well. I looked 
+pretty hard for a tool that could obfuscate a PE or .exe file and could not find anything. So the most failing tests I 
+was able to get was having the packed version of my prgoram fail about 5 of them.
 
 See the included screenshots with the results to all of the anti-malware tests.
