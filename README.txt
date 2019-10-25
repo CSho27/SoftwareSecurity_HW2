@@ -1,3 +1,11 @@
+FOR PART 3
+hw2-3 is Q1
+hw2-3-2 is Q2
+hw2-3-3 is Q3
+hw2-3-4 is Q4
+
+
+
 Christopher Shorter
 HW2-1
 
